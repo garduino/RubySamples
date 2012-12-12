@@ -1,5 +1,6 @@
 #!/usr/bin/env ruby
 
+# Classic sample to detect a duplicate value in a group of integers
 # Define array with 100 integers
 x = Array(1..100)
 
@@ -12,10 +13,6 @@ x.map! { |element|
        element
    end
 }
-
-# puts x # output: [hi there world]
-
-array = [1, 2, 1, 3, 5, 4, 5, 5]
 
 dup = x.select{|element| x.count(element) > 1 }
 
