@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 
 begin
-file = File.open("sofstore.com-access.log.txt")
+file = File.open("samplelog.txt")
    while line = file.gets
       puts line
    end

@@ -1,5 +1,9 @@
 #!/usr/bin/env ruby
 
+
+
+# no va no va no va =====
+
 inFile = File.open("samplelog.txt", "r")
 outFile = File.new("out.txt", "w")
 
