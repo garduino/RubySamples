@@ -15,6 +15,8 @@ inFile.close
 
 dup = intArray.select{|element| intArray.count(element) > 1 }
 
+# puts dup
+
 if dup.uniq.size > 0 
   puts("The array has dup values")
 else
