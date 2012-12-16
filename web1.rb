@@ -1,8 +1,4 @@
-!/usr/bin/env ruby
+#!/usr/bin/env ruby
 
-require 'uri'
-
- uri = URI.parse("http://www.ruby-lang.org/en/")
-  uri.open {|f|
-    # ...
-  }
+require 'open-uri'
+open('http://www.arsol.net/regnow/result.xml'){ |f| print f.read }

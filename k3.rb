@@ -3,7 +3,7 @@
 # before you press "Run" the first
 # time.
 
-!/usr/bin/env ruby
+#!/usr/bin/env ruby
 
 require 'test/unit'
 
