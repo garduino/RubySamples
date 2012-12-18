@@ -5,6 +5,7 @@ class Person
    @fname = fname
    @lname = lname
   end
+  attr_reader :fname, :lname
 end
 
 def to_s
@@ -22,7 +23,21 @@ class Employee < Person
 end
 
 employee = Employee.new("Augustus","Bondi","CFO")
+
+print "\n"
+print "--employee-------------------"
+print "\n"
+
 print employee
+
+print "\n"
+print "--employee fname-------------------"
+print "\n"
+print employee.fname
+
+print "\n"
+print "---------------------"
+print "\n"
 
 person = Person.new("Augustus","Bondi")
 print person
