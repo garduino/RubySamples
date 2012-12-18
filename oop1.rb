@@ -39,5 +39,10 @@ print "\n"
 print "---------------------"
 print "\n"
 
-person = Person.new("Augustus","Bondi")
-print person
+e1 = Employee.new("Nikolai","Tesla","CTO")
+puts e1
+
+e1.fname = "Franz"
+puts e1
+print e1.fname
+
