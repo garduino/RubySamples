@@ -20,6 +20,7 @@ class Employee < Person
   def to_s
      super + ", #@position"
   end
+  attr_writer :position
 end
 
 employee = Employee.new("Augustus","Bondi","CFO")
@@ -42,7 +43,7 @@ print "\n"
 e1 = Employee.new("Nikolai","Tesla","CTO")
 puts e1
 
-e1.fname = "Franz"
+e1.position = "Curandero"
 puts e1
-print e1.fname
+print e1.position
 
